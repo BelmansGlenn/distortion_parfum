@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!
+{% endblock %}
+
+{% block body %}
+	<!-- PRELOADER -->
+	<div class="preloader">
+		<img src="{{asset('build/img/preloaderDistortion.gif')}}" alt="">
+	</div>
+	<!-- OVERLAY -->
+	<div class="overlay"></div>
+	<div class="overlay two"></div>
+	<div class="overlay three"></div>
+	<!-- NAVBAR -->
+	<nav class="navbar">
+		<div class="menu">
+			<i class="fas fa-bars"></i>
+		</div>
+		<div class="lang">eng</div>
+		<div class="search">
+			<i class="fas fa-search"></i>
+		</div>
+	</nav>
+
+	<div
+		class="wrapper">
+
+		<!-- Social Media -->
+		<div class="containerMedia">
+			<div class="media">
+
+				<a href="/">
+					facebook
+				</a>
+				<a href="/">
+					instagram
+				</a>
+				<a href="/">
+					twitter
+				</a>
+
+			</div>
+		</div>
+
+
+		<!-- Text -->
+		<div class="containerText">
+			<div class="text">
+				<h1 class="timeline">ANGE&HELL</h1>
+				<h3 class="timeline">COLLECTION 2021
+					<br>
+					RIVALITY</h3>
+				<p class="timeline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore natus delectus 
+																																																																																																																																																																																																																																																																								            numquam commodi eligendi quibusdam maiores fuga dolore reprehenderit nihil</p>
+			</div>
+		</div>
+
+
+		<!-- distortion -->
+		<div class="distortion"></div>
+
+		<!-- Sponsor -->
+		<div class="container">
+			<div class="sponsor">
+				<img src="{{asset('build/img/wolf.png')}}" alt="">
+				<p class="turnText">high-quality-perfume-from-france-</p>
+			</div>
+		</div>
+
+	</div>
+
+
+{% endblock %}
